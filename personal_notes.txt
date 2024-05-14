@@ -1,0 +1,24 @@
+anything other than 0 is true
+bools are lowercase
+stdint.h contains portable types like uint32_t -> unsigned 32bit int
+    because the ints byte usage are actually implementation-specific
+
+numbers w trailing u or U are unsigned
+leading zeroes: octals
+leading 0x: hex
+leading 0b: binary
+
+float: end with an float
+
+single quote: character literals
+
+/ is INTEGER DIVISION
+unless we have two floats
+
+
+you can use #define CHEESE = "american" or const std::string cheese = "american"
+constants in C just mean that the variable cannot change, and that's it
+C++ implements more features, and that's why people use macros in C
+
+
+#define PRINT(x) std::cout << x << std::endl;

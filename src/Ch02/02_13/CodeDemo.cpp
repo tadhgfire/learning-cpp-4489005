@@ -9,6 +9,14 @@ int main(){
     float result; 
 
     // Write your code here
+    int count = 0;
+    int max = 5;
+    result = 0;
+    while (count < max) {
+        result += nums[count];
+        count += 1;
+    }
+    result /= max;
     
     std::cout << "The average is " << result << std::endl;
     
